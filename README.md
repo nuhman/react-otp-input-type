@@ -3,7 +3,9 @@
 
 A lightweight and customizable continuous-single-input component, which can be used for OTP/pass-code style input purposes for React apps. 
 
-<!-- [Demo](URL) -->
+![image](https://user-images.githubusercontent.com/15177381/157714570-0cc1395f-5816-43d0-b56e-7dab88e84acd.png)
+
+[Working Demo](https://stackblitz.com/edit/react-otp-input-type?file=src/App.js)
 
 ## Installing as a package
 
