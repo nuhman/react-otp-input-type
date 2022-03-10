@@ -1,6 +1,6 @@
 {
   "name": "react-otp-input-type",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A customizable continuous-single-input component, which can be used for OTP/pass-code style input purposes",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
