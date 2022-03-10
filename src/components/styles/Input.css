@@ -1,0 +1,45 @@
+
+.form-control {
+  -webkit-transition: none;
+  transition: none;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  margin: 4px;
+  border-radius: 10px;
+  border: solid 1.5px #D3D3D3;
+}
+
+.form-control:focus, .form-control:focus-visible {
+  box-shadow: 0 0 5pt 0.5pt #D3D3D3;
+  outline: none;
+}
+
+.form-control.form-control-solid {
+  background-color: #F3F6F9;
+  border-color: #F3F6F9;
+  color: #3F4254;
+  transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.form-control.form-control-solid:active,
+.form-control.form-control-solid.active,
+.form-control.form-control-solid:focus,
+.form-control.form-control-solid.focus {
+  box-shadow: 0 0 5pt 0.5pt #D3D3D3;
+  outline: none;
+}
+
+.form-error {
+  border-color: #e74c3c;
+  box-shadow: 0 0 5pt 0.5pt #e74c3c;
+  transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.form-error:active,
+.form-error.active,
+.form-error:focus,
+.form-error.focus {
+  box-shadow: 0 0 5pt 0.5pt #D3D3D3;
+  outline: none;
+}
