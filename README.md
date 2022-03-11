@@ -47,47 +47,47 @@ function App() {
   </tr>
   <tr>
     <td>numOfInputs</td>
-    <td>`number` / 4</td>
+    <td><code>number</code> / 4</td>
     <td>Total number of inputs</td>
   </tr>
   <tr>
     <td>isOnlyNumberAllowed</td>
-    <td>`boolean` / false</td>
+    <td><code>boolean</code> / false</td>
     <td>Flag to allow only numbers to be enetered</td>
   </tr>
   <tr>
     <td>isDisabled</td>
-    <td>`boolean` / false</td>
+    <td><code>boolean</code> / false</td>
     <td>Flag to disable all the inputs</td>
   </tr>
     <tr>
      <td>placeholder</td>
-    <td>`string` / ''</td>
+    <td><code>string</code> / ''</td>
      <td>Placeholder value for inputs. Sample: `f76t`</code>.</td>
    </tr>
   <tr>
     <td>value</td>
-    <td>`string` / ''</td>
+    <td><code>string</code> / ''</td>
     <td>Default value for inputs when component is loaded for first time. Sample: `f76t`</code>.</td>
   </tr>
   <tr>
     <td>maskInput</td>
-    <td>`boolean` / false</td>
+    <td><code>boolean</code> / false</td>
     <td>Mask or hide the input characters</td>
   </tr>
   <tr>
     <td>hasError</td>
-    <td>`boolean` / false</td>
+    <td><code>boolean</code> / false</td>
     <td>Flag that denotes there is an error on the input. Specific error style is applied on the inputs</td>
   </tr>
   <tr>
     <td>handleChange</td>
-    <td>`Function` / (otp) => otp</td>
+    <td><code>Function</code> / (otp) => otp</td>
     <td>Function that can be used to listen to input changes. See the demo code for usage.</td>
   </tr>
   <tr>
     <td>styleObject</td>
-    <td>`Object` / {}</td>
+    <td><code>Object</code> / {}</td>
     <td>Object that contain JSX style-object which can override default input styles.</td>
   </tr>
 </table>
